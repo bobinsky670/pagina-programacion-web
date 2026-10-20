@@ -1,0 +1,211 @@
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: 333;
+}
+.ancho{
+    max-width: 200px;
+    margin:auto;
+    border: 1px;
+
+
+}
+.margen {
+    padding: 15px;
+}
+.centrar{
+    text-align: center;
+}
+.botones1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    text-decoration: none;
+    color:#000000;
+    border-radius: 30px;
+
+}
+.descargaf{
+    background-color: white;
+    border: #0400ff 2px solid;
+    color: #0400ff;
+    border-radius: 50;
+    padding: 15px;
+}
+.mozilla{
+    color: white;
+    background-color: #000000;
+    font-size: 40px;
+    padding: 10px;
+}
+.bannersuperior{
+
+    border: 1px solid #000000;
+}
+.banner2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    gap: 40px;
+    align-items: flex-start;
+
+}
+.info {
+    width: 50%;
+
+}
+
+.logofirefox {
+    display: block;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.imagenescritorio img{
+    width: 400px;
+}
+.btndescargar{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0400ff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.aviso{
+    font-size: 12px;
+    color: #666;
+}
+.dinosaurio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.texto{
+    width: 50%;
+    text-align: center;
+}
+.banner3{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 25px;
+    gap: 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.impacto {
+    width: 350px;
+}
+
+.innovaciones {
+    width: 350px;
+    border-left: 1px solid #ddd;
+    padding-left: 35px;
+}
+.iconos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    gap: 40px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.h3{
+    align-items: center;
+    justify-content: center;
+}
+.banner4 {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.iconos {
+    width: 230px;
+    text-align: center;
+    display: block;
+}
+
+.iconos img {
+    width: 80px;
+    height: auto;
+}
+
+.iconos h3 {
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.iconos p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+.banner5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 30px;
+}
+
+.imagennoticias {
+    width: 250px;
+}
+
+.imagennoticias img {
+    width: 100%;
+}
+
+.formulario {
+    width: 300px;
+}
+
+.formulario h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.formulario label {
+    display: block;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.formulario input {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.formulario button {
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+}
+
+.formulario p {
+    text-align: center;
+    font-size: 11px;
+}
